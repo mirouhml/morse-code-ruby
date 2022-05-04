@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Morse Code with Ruby
 
 > A simple Ruby project built to decode morse code text.
 

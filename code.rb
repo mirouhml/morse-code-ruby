@@ -43,3 +43,7 @@ end
 def decode_word(word)
   word.split.map { |char| decode_char(char) }.join
 end
+
+def decode(phrase)
+  phrase.split('   ').map { |word| decode_word(word) }.join(' ')
+end
